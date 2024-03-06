@@ -8,6 +8,7 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 ## Dependencies
 
 • [VueUse](https://vueuse.org/)
+
 • [Tailwindcss]([https://tailwindcss.)
 
 ## How to use
