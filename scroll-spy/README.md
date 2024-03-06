@@ -9,11 +9,12 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 • [VueUse](https://vueuse.org/)
 
-• [Tailwindcss]([https://tailwindcss.)
+• [Tailwindcss](https://tailwindcss.com/)
 
 ## How to use
 
 ```html
+<!-- main -->
 <div class="w-5/6 h-full space-y-8 p-8">
   <Scroll
     title="Seja Bem-Vindo"
@@ -40,10 +41,26 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
       Lorem...
     </div>
   </Scroll>
+
+  <!-- menu -->
+  <div class="<classes>">
+    <button
+      :class="{ 'border-l-2 text-gray-100': active == 'home' }"
+      class="px-3 border-gray-500 transition-all duration-150 ease-linear"
+    >
+      <a href="#home">Home</a>
+    </button>
+    <button
+      :class="{ 'border-l-2 text-gray-100': active == 'contact' }"
+      class="px-3 border-gray-500 transition-all duration-150 ease-linear"
+    >
+      <a href="#contact">Contato</a>
+    </button>
+  </div>
 </div>
 ```
 
-```ts
+```html
 <script setup lang="ts">
 let active = ref("");
 const setActive = (name: string) => {
@@ -53,4 +70,4 @@ const setActive = (name: string) => {
 ```
 
 ### Preview
-![](https://cdn.discordapp.com/attachments/884496726105403464/1215008804840931369/localhost_3000_home-6March2024-ezgif.com-video-to-gif-converter.gif?ex=65fb3020&is=65e8bb20&hm=4b2f0dd7159e5373d97f93dd2d79e1631fda92e98cf0b092286bdf165a6a5735&)
+![](https://cdn.discordapp.com/attachments/884496726105403464/1215021765181444226/localhost_3000_home-6March2024-ezgif.com-video-to-gif-converter_1.gif?ex=65fb3c32&is=65e8c732&hm=73742156ea479bf193b9a2a42e29eb4404476ade8930270b250fb0ccacabd8f4&)
