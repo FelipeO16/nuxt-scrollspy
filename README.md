@@ -7,7 +7,7 @@ Algumas funções úteis para projetos em Nuxt do dia a dia.
 ## Funcionalidades
 
   - [Scroll Spy](./scroll-spy)  [![](https://img.shields.io/github/directory-file-count/FelipeO16/nuxt-utils/scroll-spy)](https://github.com/FelipeO16/nuxt-utils/scroll-spy)
-  - 
+  
   - [Draggable](./draggable)  [![](https://img.shields.io/github/directory-file-count/FelipeO16/nuxt-utils/draggable)](https://github.com/FelipeO16/nuxt-utils/draggable)
 
 
